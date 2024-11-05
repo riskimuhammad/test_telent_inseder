@@ -16,4 +16,8 @@ class MColors {
       900: Color(0xFF000000),
     },
   );
+  static Color white = Colors.white;
+  static Color gray = const Color(0xffD9D9D9);
+  static Color red = const Color(0xffC51011);
+  static Color yellow = const Color(0xffFFE485);
 }
