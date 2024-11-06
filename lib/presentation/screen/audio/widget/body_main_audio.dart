@@ -25,7 +25,7 @@ class BodyMainAudio extends StatelessWidget {
             ResolutionSize.normalResolutionSizeHeight,
             _label(),
             ResolutionSize.largeResolutionSizeHeight,
-            _content(context)
+            _content(context),
           ],
         ),
       ),

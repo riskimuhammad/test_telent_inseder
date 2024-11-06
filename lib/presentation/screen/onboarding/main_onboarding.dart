@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:test_muhammad_riski/core/extensions/material_textstyle.dart';
-import 'package:test_muhammad_riski/presentation/controller/onboarding_controller.dart';
+import 'package:test_muhammad_riski/presentation/controller/onboarding/onboarding_controller.dart';
 
 import 'widget/onboarding_content.dart';
 
