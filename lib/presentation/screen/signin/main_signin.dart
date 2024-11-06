@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:test_muhammad_riski/core/extensions/material_color.dart';
 import 'package:test_muhammad_riski/core/extensions/material_image.dart';
 import 'package:test_muhammad_riski/core/extensions/material_textstyle.dart';
 import 'package:test_muhammad_riski/core/extensions/resolution_size.dart';
 
+import '../../routes/app_routes.dart';
 import 'widget/form_input_signin.dart';
 
 class MainSignin extends StatelessWidget {
@@ -50,7 +52,7 @@ class MainSignin extends StatelessWidget {
                                     borderRadius: BorderRadius.circular(8))),
                             backgroundColor:
                                 WidgetStateProperty.all(MColors.red)),
-                        onPressed: () {},
+                        onPressed: () => Get.toNamed(AppRoutes.audio),
                         child: Text(
                           'Login',
                           style: MaterialTextStyle.textStyleFZ16,

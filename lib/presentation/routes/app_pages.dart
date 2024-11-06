@@ -13,7 +13,7 @@ import 'app_routes.dart';
 class AppPages {
   static final pages = [
     GetPage(
-        name: AppRoutes.audio,
+        name: AppRoutes.initial,
         page: () => OnBoarding(),
         binding: OnboardingBinding()),
     GetPage(
@@ -27,7 +27,7 @@ class AppPages {
         transitionDuration: Duration(milliseconds: 300),
         binding: AudioDetailBindings()),
     GetPage(
-        name: AppRoutes.initial,
+        name: AppRoutes.signin,
         page: () => MainSignin(),
         binding: SigninBindings()),
   ];

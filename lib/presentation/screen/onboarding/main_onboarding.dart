@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:test_muhammad_riski/core/extensions/material_textstyle.dart';
 import 'package:test_muhammad_riski/presentation/controller/onboarding/onboarding_controller.dart';
+import 'package:test_muhammad_riski/presentation/routes/app_routes.dart';
 
 import 'widget/onboarding_content.dart';
 
@@ -39,7 +40,7 @@ class OnBoarding extends StatelessWidget {
               child: Align(
                 alignment: Alignment.bottomRight,
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.toNamed(AppRoutes.signin),
                   child: Text(
                     "Skip",
                     style: MaterialTextStyle.textStyleNormalWhite,
