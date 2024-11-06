@@ -5,10 +5,12 @@ import 'package:test_muhammad_riski/core/extensions/material_color.dart';
 class MaterialTextStyle {
   static TextStyle textStyleLarge = GoogleFonts.poppins(
       fontSize: 28, color: MColors.white, fontWeight: FontWeight.bold);
-
+  static TextStyle textStyleLarge30 = GoogleFonts.poppins(
+      fontSize: 30, color: MColors.white, fontWeight: FontWeight.bold);
   static TextStyle textStyleFZ21 = GoogleFonts.poppins(
       fontSize: 21, color: MColors.white, fontWeight: FontWeight.w500);
-
+  static TextStyle textStyleFZ16 = GoogleFonts.poppins(
+      fontSize: 16, color: MColors.white, fontWeight: FontWeight.w500);
   static TextStyle textStyleFZ24 = GoogleFonts.poppins(
       fontSize: 24, color: MColors.white, fontWeight: FontWeight.w600);
   static TextStyle textStyleNormalWhite =

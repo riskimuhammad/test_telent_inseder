@@ -16,6 +16,10 @@ class ResolutionSize {
     width: 10,
   );
 
+  static SizedBox mediumResolutionSizeHHeight = const SizedBox(
+    height: 12,
+  );
+
   static SizedBox largeResolutionSizeHWidht = const SizedBox(
     width: 24,
   );
